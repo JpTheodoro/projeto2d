@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AudioManager : MonoBehaviour {
+
+
+	public static AudioManager instance;
+	public AudioSFX audioSFX;
+	public AudioPlayer audioPlayer;
+
+	void Awake() { 
+		if (instance == null) {
+			instance = this;
+		}
+	 }
+
+	void Start () {
+		
+	}
+	
+	void Update () {
+		
+	}
+}
