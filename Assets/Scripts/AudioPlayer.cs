@@ -6,5 +6,5 @@ using System;
 [Serializable]
 public class AudioPlayer {
 
-	public AudioClip coinPickup;
+	public AudioClip jump;
 }
