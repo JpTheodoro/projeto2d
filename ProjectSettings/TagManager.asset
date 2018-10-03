@@ -20,7 +20,7 @@ TagManager:
   - Ground
   - Collectibles
   - Player
-  - 
+  - marcelinho
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2373053367
     locked: 0
